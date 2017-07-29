@@ -34,3 +34,7 @@ Equivalent to `show mac address-table` on Cisco devices:
 ## Show DPDK statistics
 
 `ovs-appctl dpif-netdev/pmd-stats-show`
+
+## Enable IGMP Snooping
+
+`ovs-vsctl set Bridge switch0 mcast_snooping_enable=true`
