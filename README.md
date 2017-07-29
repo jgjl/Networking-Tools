@@ -44,4 +44,6 @@ Equivalent to `show mac address-table` on Cisco devices:
 ## IGMP Snoping
 
 `/sys/devices/virtual/net/<bridge name>/bridge/multicast_snooping`
+
+
 More information can be found here: https://wiki.linuxfoundation.org/networking/bridge#multicast-igmp-snooping
