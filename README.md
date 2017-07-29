@@ -35,6 +35,13 @@ Equivalent to `show mac address-table` on Cisco devices:
 
 `ovs-appctl dpif-netdev/pmd-stats-show`
 
-## Enable IGMP Snooping
+## IGMP Snooping
 
 `ovs-vsctl set Bridge switch0 mcast_snooping_enable=true`
+
+# Linux Bridge
+
+## IGMP Snoping
+
+`/sys/devices/virtual/net/<bridge name>/bridge/multicast_snooping`
+More information can be found here: https://wiki.linuxfoundation.org/networking/bridge#multicast-igmp-snooping
